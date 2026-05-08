@@ -1,0 +1,6 @@
+{
+  "name": "GROC Kiosk - Control de Calidad ISO 9001",
+  "description": "Aplicación de kiosco para la captura de escala GROC con trazabilidad de pacientes y resiliencia de datos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
