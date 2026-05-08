@@ -7,7 +7,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base: '/GROC-API/', // Ajustado para el nombre de tu repositorio en GitHub
+    base: '/GROC/', // Ajustado para el nombre de tu repositorio en GitHub
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
